@@ -880,6 +880,18 @@ button:hover,
   filter: brightness(90%);
 }
 
+/* Assinante */
+.button.button-assinante {
+  color: #000000;
+  background-color: #07d6bb;
+  border: 1px solid #000000;
+}
+.button.button-assinante:hover,
+.button.button-assinante:focus {
+  filter: brightness(90%);
+}
+
+
 /* Trello */
 .button.button-trello {
   color: #ffffff;

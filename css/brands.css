@@ -1071,7 +1071,8 @@ button:hover,
 .icon-paypal{
   width: 25px;
   height: 25px;
-  padding: 0px 8px px 0px;
+  padding: 0px 10px 5x;
+  vertical-align: middle;
  
  
 }

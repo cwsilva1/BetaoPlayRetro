@@ -1068,3 +1068,10 @@ button:hover,
   filter: brightness(90%);
 }
 
+.icon-paypal{
+  width: 25px;
+  height: 25px;
+  padding: 0px 8px px 0px;
+ 
+ 
+}

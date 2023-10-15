@@ -1,7 +1,7 @@
-body{text-align: center;
-  align-items: center;
+body{
   background-color: rgb(17, 27, 36);
   color: #fff;
+  padding: 10px;
 }
 
 a:link{
@@ -11,53 +11,25 @@ a:link{
 a:visited{
   text-decoration: none;
 }
-.header{
-  width: 95%;
-  height: 50px;
-  background: rgb(17, 27, 36);
-  background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgb(11, 44, 51) 100%);
-  margin-bottom: 30px;
+
+.menu-text{
+  margin-left: 10px;
+
+}
+
+.mods{
   margin-top: 10px;
 
-  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
-p.header{
-  text-align: center;
-  margin: auto;
-  padding: 10px;
-  
-}
-/* BUTTON */
-.btn{
-  width: 100%;
-  border-style: none;
-}
-.btn:hover{
-  background-color: #0f7430;
-  border-style: none;
-}
- 
- .mod-box{
-  width:300px;
-  height: 285px;
-  border-style:solid;
-  border-radius: 10px;
-  border-color: #ffffff0c;
- }
- 
- .header-box{
-  width: 300px;
-  height: 200px;
-  background-image: url(../imagens/cover.jog);
-  background-size: 65%;
-  background-position: bottom;
-  background-repeat: no-repeat;
 
+.btn-send-mod{
+  background-color: black;
+  color: #fff;
+  padding: 10px ;
 
 }
 
-.title-box{
-  margin-top: 5px;
-  font-size: 18px;
-  font-weight: bold;
+.btn-send-mod:hover{
+  background-color: #0fd149;
 }
+

@@ -3,4 +3,162 @@ body{
     background-position:bottom;
     background-repeat: no-repeat;
     background-size:cover;
+    text-align: center;
+    color: #fff;
   }
+
+a:link{
+  text-decoration: none;
+  color: #fff;
+}
+a:visited{
+  text-decoration: none;
+  color: #fff;
+}
+
+
+/* AVATAR */
+
+.avatar {
+  width: 128px;
+  height: 128px;
+  object-fit: cover;
+  background-position: center;
+  border-radius: 50%;
+}
+
+/* Brand Icons
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+
+.icon {
+  padding: 0px 8px 3.5px 0px;
+  vertical-align: middle;
+  width: 30px;
+  height: 30px;
+}
+
+.icon-paypal{
+  width: 25px;
+  height: 25px;
+  padding: 0px 10px 5x;
+  vertical-align: middle;
+}
+
+.bi-whatsapp{
+width: 50px;
+height: 50px;
+padding: 0px 0px 0px;
+}
+
+/* btns
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+
+.btn {
+  margin-bottom: 15px;
+  display: inline-block;
+  text-decoration: none;
+  text-align: center;
+  vertical-align: middle;
+  font-size: 18px;
+  width: 300px;
+  font-weight: 700;
+  line-height: 20px;
+  padding: 14px 12px 12px 12px;
+  letter-spacing: 0.1px;
+  white-space: wrap;
+  outline: none;
+  border-radius: 10px;
+  cursor: pointer;
+  
+}     
+.btn:hover{
+  color: #212121;
+  border-color: #888;
+  outline: #7AB8FF solid 3px
+}
+.btn.btn-primary {
+  color: #fff;
+  filter: brightness(90%);
+}
+.btn.btn-primary:hover {
+  color: #fff;
+  filter: brightness(90%);
+}
+
+
+
+/* ------------------------------------------------------------------------- */
+/* Default (this is great for your own brand color!) */
+.btn-default {
+  color: #ffffff;
+  background-color: #2457F5;
+}
+.btn-default:hover {
+  filter: brightness(90%);
+}
+
+/* TikTok */
+.btn-tiktok {
+  color: #ffffff;
+  background-color: #000000;
+  border: 1px solid #FFFFFF;
+  margin-bottom: 15px;
+}
+.btn-tiktok:hover{
+  filter: brightness(50%);
+}
+
+/* Twitch */
+.btn-twitch {
+  color: #ffffff;
+  background-color: #9146ff;
+}
+.btn-twitch:hover{
+  filter: brightness(90%);
+}
+
+/* PayPal */
+.btn-paypal {
+  color: #ffffff;
+  background-color: #003087;
+}
+.btn-paypal:hover{
+  filter: brightness(90%);
+}
+
+/* Cash App */
+.btn-cash-app {
+  color: #ffffff;
+  background-image: linear-gradient(to bottom, #00d64b, #00c244);
+}
+.btn-cash-app:hover {
+  filter: brightness(90%);
+}
+
+/* Instagram */
+.btn-instagram {
+  color: #ffffff;
+  background-image: linear-gradient(-135deg, #1400c8, #b900b4, #f50000);
+}
+.btn-instagram:hover {
+  filter: brightness(90%);
+}
+
+/* YouTube */
+.btn.btn-yt {
+  color: #ffffff;
+  background-color: #da0e0e;
+  border: 1px solid #FFFFFF;
+}
+.btn-yt:hover{
+  filter: brightness(90%);
+}
+
+/* WhatsApp */
+.btn.btn-whatsapp {
+  color: #ffffff;
+  background-color: #455a64;
+}
+.btn.btn-whatsapp:hover {
+  filter: brightness(90%);
+}

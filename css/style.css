@@ -120,7 +120,7 @@ padding: 0px 0px 0px;
 /* PayPal */
 .btn-paypal {
   color: #ffffff;
-  background-color: #003087;
+background-color: #1346d1;
 }
 .btn-paypal:hover{
   filter: brightness(90%);
